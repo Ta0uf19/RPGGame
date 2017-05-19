@@ -1,0 +1,234 @@
+[
+  [
+    null,
+    {
+      "name": "Treasure Stone",
+      "description": "A circle of tall stones stands in the east side of the room, Someone has scrawled 'The dwarf will betray you'",
+      "roomCoord": {
+        "x": 0,
+        "y": 1
+      },
+      "chest": {
+        "items": [
+          {
+            "health": 100,
+            "name": "Health Potion",
+            "description": "100 HP",
+            "itemType": 0
+          }
+        ],
+        "name": "Treasure stone",
+        "description": "You'll find all .. items here",
+        "itemType": 0
+      },
+      "monsters": []
+    },
+    {
+      "name": "Archway",
+      "description": "The entrance of the hell!",
+      "roomCoord": {
+        "x": 0,
+        "y": 2
+      },
+      "monsters": []
+    },
+    null,
+    null
+  ],
+  [
+    null,
+    {
+      "name": "Dwarf",
+      "description": "First Dwarf Monster Room",
+      "roomCoord": {
+        "x": 1,
+        "y": 1
+      },
+      "monsters": [
+        {
+          "escapeChance": 0.25,
+          "name": "Dwarf",
+          "health": 200,
+          "defense": 0.65,
+          "strenght": 40,
+          "inventory": [
+            {
+              "name": "key_lost",
+              "description": "This key is for Lost Room",
+              "itemType": 0
+            }
+          ]
+        }
+      ]
+    },
+    null,
+    null,
+    null
+  ],
+  [
+    {
+      "name": "Treasure of dwarf",
+      "description": "First Monster Room",
+      "roomCoord": {
+        "x": 2,
+        "y": 0
+      },
+      "chest": {
+        "items": [
+          {
+            "health": 200,
+            "name": "Health Potion",
+            "description": "200 HP",
+            "itemType": 0
+          },
+          {
+            "health": 150,
+            "name": "Health Potion",
+            "description": "150 HP",
+            "itemType": 0
+          }
+        ],
+        "name": "Blood Cofre",
+        "description": "You'll find all .. items here",
+        "itemType": 0
+      },
+      "monsters": []
+    },
+    {
+      "name": "Lost Room",
+      "description": "The blood covered the floor of this Lost Room! Humain slit everywhere",
+      "roomCoord": {
+        "x": 2,
+        "y": 1
+      },
+      "monsters": [],
+      "key": {
+        "name": "key_lost",
+        "description": "This key is for Lost Room",
+        "itemType": 0
+      }
+    },
+    {
+      "name": "Wyvern",
+      "description": "Third Wyvern Monster Room",
+      "roomCoord": {
+        "x": 2,
+        "y": 3
+      },
+      "monsters": [
+        {
+          "escapeChance": 0.15,
+          "name": "Wyvern",
+          "health": 250,
+          "defense": 0.9,
+          "strenght": 50,
+          "inventory": [
+            {
+              "name": "key_arkadia",
+              "description": "This key is for Arkadia Room",
+              "itemType": 0
+            }
+          ]
+        }
+      ]
+    },
+    null,
+    null
+  ],
+  [
+    null,
+    {
+      "name": "Arkadia",
+      "description": "An altar of evil sits in the center of the room!",
+      "roomCoord": {
+        "x": 3,
+        "y": 1
+      },
+      "monsters": [],
+      "key": {
+        "name": "key_arkadia",
+        "description": "This key is for Arkadia Room",
+        "itemType": 0
+      }
+    },
+    {
+      "name": "LWahch",
+      "description": "Third Monster Room",
+      "roomCoord": {
+        "x": 3,
+        "y": 2
+      },
+      "monsters": [
+        {
+          "escapeChance": 0.1,
+          "name": "LWahch",
+          "health": 300,
+          "defense": 0.8,
+          "strenght": 70,
+          "inventory": []
+        }
+      ]
+    },
+    {
+      "name": "Tresure of the end!",
+      "description": "Look out! Evil Dead",
+      "roomCoord": {
+        "x": 3,
+        "y": 3
+      },
+      "chest": {
+        "items": [
+          {
+            "health": 200,
+            "name": "Health Potion",
+            "description": "200 HP",
+            "itemType": 0
+          },
+          {
+            "health": 150,
+            "name": "Health Potion",
+            "description": "150 HP",
+            "itemType": 0
+          }
+        ],
+        "name": "Blood Cofre",
+        "description": "You'll find all .. items here",
+        "itemType": 0
+      },
+      "monsters": []
+    },
+    {
+      "name": "Evil Dead",
+      "description": "Final Monster Room",
+      "roomCoord": {
+        "x": 3,
+        "y": 4
+      },
+      "monsters": [
+        {
+          "escapeChance": 0,
+          "name": "Evil",
+          "health": 400,
+          "defense": 1,
+          "strenght": 100,
+          "inventory": []
+        }
+      ]
+    }
+  ],
+  [
+    null,
+    null,
+    {
+      "name": "Quiet",
+      "description": "Grave of Altar.. dead body",
+      "roomCoord": {
+        "x": 4,
+        "y": 2
+      },
+      "monsters": []
+    },
+    null,
+    null
+  ]
+]
